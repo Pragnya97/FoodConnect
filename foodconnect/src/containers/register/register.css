@@ -1,0 +1,15 @@
+.wrapper {
+    padding: 5px 20px;
+    border-color: black;
+}
+
+.wrapper fieldset {
+    margin: 20px 0;
+}
+
+.card {
+    max-width: 28rem;
+
+    
+   
+}

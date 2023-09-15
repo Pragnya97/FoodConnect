@@ -1,0 +1,49 @@
+.container-div {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    width: fit-content;
+  }
+  
+  .container-div::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .card-wrapper {
+    flex: 0 0 12rem; /* Set a fixed width for each card */
+    margin-right: 1rem; /* Add some spacing between cards */
+  }
+  
+  .card-wrapper:last-child {
+    margin-right: 0; /* Remove right margin from the last card */
+  }
+
+   
+ 
+  .bg-image {
+    /* The image used */
+    
+    /* Add the blur effect */
+    filter: blur(0px);
+    
+    
+    /* Full height */
+  }
+
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: transparent; /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 0px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
